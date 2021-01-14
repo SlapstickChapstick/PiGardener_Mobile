@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PiGardener_Mobile.Views.ReadingsPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20,10,20,0">
+            <Picker Title="Select a device" x:Name="DevicePicker" Margin="0,10,0,30" SelectedIndexChanged="DevicePicker_SelectedIndexChanged">
+            </Picker>
+            <Label x:Name="TemperatureLabel" Text="[TEMPERATURE]" FontSize="24"/>
+            <Label x:Name="HumidityLabel" Text="[HUMIDITY]" FontSize="24"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
