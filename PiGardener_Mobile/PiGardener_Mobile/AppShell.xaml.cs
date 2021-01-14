@@ -13,6 +13,7 @@ namespace PiGardener_Mobile
             InitializeComponent();
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            Routing.RegisterRoute(nameof(ReadingsPage), typeof(ReadingsPage));
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)
