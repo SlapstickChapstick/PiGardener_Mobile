@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PiGardener_Mobile.Models
 {
-    class Device
+    class PiDevice
     {
         public string Name { get; set; }
         public string IP_Addr { get; set; }
