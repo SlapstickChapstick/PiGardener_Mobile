@@ -1,7 +1,10 @@
-[
-  {
-    "name": "Greenhouse",
-    "ip": "127.0.0.1",
-    "location": "Home"
-  }
-]
+{
+  "Devices": [
+    {
+      "id": 1,
+      "name": "Greenhouse",
+      "ip": "127.0.0.1",
+      "location": "Home"
+    }
+  ]
+}
