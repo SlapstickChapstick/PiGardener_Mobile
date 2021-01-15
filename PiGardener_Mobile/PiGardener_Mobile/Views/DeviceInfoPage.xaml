@@ -6,10 +6,7 @@
         <ToolbarItem Text="ADD DEVICE" Clicked="ToolbarItem_Clicked"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout x:Name="DeviceStack" Padding="25">
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

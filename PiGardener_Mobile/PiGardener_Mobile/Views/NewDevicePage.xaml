@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PiGardener_Mobile.Views.NewDevicePage">
+    <ContentPage.Content>
+        <StackLayout Padding="20,40,20,20">
+            <Label Text="Name:" FontSize="16"/>
+            <Entry x:Name="Name_Entry"/>
+            <Label Text="Location:" FontSize="16" Margin="0,30,0,0"/>
+            <Entry x:Name="Location_Entry"/>
+            <Label Text="IP Address:" FontSize="16" Margin="0,30,0,0"/>
+            <Entry x:Name="IPAddr_Entry"/>
+            <Button x:Name="AddDevice_Btn" Text="Add Device" FontSize="16" Margin="0,30,0,0" Clicked="AddDevice_Btn_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
