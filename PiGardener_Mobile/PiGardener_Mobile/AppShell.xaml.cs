@@ -11,11 +11,8 @@ namespace PiGardener_Mobile
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(ReadingsPage), typeof(ReadingsPage));
-        }
-
-        private async void OnMenuItemClicked(object sender, EventArgs e)
-        {
-            await Shell.Current.GoToAsync("//LoginPage");
+            Routing.RegisterRoute(nameof(DeviceInfoPage), typeof(DeviceInfoPage));
+            Routing.RegisterRoute(nameof(AboutPage), typeof(AboutPage));
         }
     }
 }
